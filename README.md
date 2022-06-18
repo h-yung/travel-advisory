@@ -38,4 +38,4 @@ Each advisory will include details such as
 ## Lessons learned (WIP)
 - dependencies and deprecation: needed to use flag --legacy-peer-dep, and overrides
 - vulnerability warnings might be false alarms pre-production (React)
-- mind the states! Building familiarity with hooks
+- Building familiarity with hooks - mind the states! 
