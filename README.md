@@ -1,5 +1,6 @@
 # Travel Advisory 
-Web app that will provide information on whether a destination country for international travel (by air) requires specific health and vaccination proof.
+This web app is meant for the international traveler post-2020 as policies concerning COVID and health precautions continue to shift.
+It will provide information on whether a destination country for international travel (specifically by air) requires specific health and vaccination proof.
 
 MVP will focus on negative COVID test and proof of vaccination for the [top 10 most visited countries](https://worldpopulationreview.com/country-rankings/most-visited-countries) for tourism and global travel. 
 Future phases will provide more actionable details and increase country list.
