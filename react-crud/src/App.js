@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'; //fetch data
+// import React, { useEffect } from 'react'; //fetch data
 import { Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -6,14 +6,13 @@ import AddAdvisory from './components/AddAdvisory';
 import Advisory from './components/Advisory';
 import AdvisoryList from './components/AdvisoryList';
 
-
 function App(props) {
-  useEffect(()=> {
-    // or use axios?
-    fetch('http://localhost:8081/api/advisories/')
-      .then(res => res.json())
-      .then(data => console.log(data)) //tbc
-  })
+  // useEffect(()=> {
+  //   // or use axios?
+  //   fetch('http://localhost:8081/api/advisories/')
+  //     .then(res => res.json())
+  //     .then(data => console.log(data)) //tbc
+  // })
   return (
     <div>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
