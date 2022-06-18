@@ -5,15 +5,15 @@ function AddAdvisory() {
     const initialAdvisoryState = {
         id: null,
         country: "",
-        "negative covid test required":"",
-        "covid test detail": "",
-        "accepted tests": "",
-        "vaccination proof required": "",
-        "vaccination proof detail": "",
-        "accepted proof": [],
-        sourceName: "",
-        sourceLink1: "",
-        sourceLink2: "",
+        covTest:"",
+        testDetail: "",
+        testType: "",
+        vaxProof: "",
+        vaxDetail: "",
+        vaxType: [],
+        sName: "",
+        covTestLink: "",
+        vaxProofLink: "",
         published: false
     };
     const [advisory, setAdvisory] = useState(initialAdvisoryState);
@@ -203,6 +203,7 @@ function AddAdvisory() {
                     <button 
                         className='btn btn-success'
                         onClick={saveAdvisory} 
+                        type='submit'
                     >
                         Submit
                     </button>
