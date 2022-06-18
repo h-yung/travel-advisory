@@ -12,9 +12,8 @@ Further optimizations will use webscraping for publicly available data from cred
 The following apply solely to the **MVP**.
 
 ## Current state
-Not yet deployed
-API and database is set up
-Front and back end built separately and not yet integrated
+- API and database are set up
+- Front and back end built separately and not yet integrated
 
 ## Target functionality
 User can look up travel advisory by country, and learn whether the destination country requires proof of negative COVID test or full vaccination.
