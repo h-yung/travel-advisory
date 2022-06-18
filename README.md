@@ -6,10 +6,11 @@ Future phases will provide more actionable details and increase country list.
 Further optimizations will use webscraping for publicly available data from credible government agency sources.
 
 ## How it's made
-**Tech used:** MERN stack app - Front end: React (and Bootstrap, temporarily); back end: Node.js and Express framework, MongoDB with Mongoose for database, Axios for HTTP requests (but may rewrite). 
+**Tech used:** MERN stack app - Front end: React (and Bootstrap, temporarily); back end: Node.js and Express framework, MongoDB with Mongoose for database, Axios for HTTP requests (but may rewrite).
+
+The following apply solely to the **MVP**.
 
 ## Current state
-### MVP
 Not yet deployed
 API and database is set up
 Front and back end built separately and not yet integrated
@@ -22,7 +23,6 @@ Each advisory will include details such as
 - source of information and relevant links for more information
 
 ## Issues/backlog
-# MVP
 - finish setting up data fetching in React
 - componentize the many inputs, labels, and divs across the routes (AdvisoryList, Advisory, AddAdvisory)
   -  certain inputs may be better as radio buttons or arrays: update form for adding Advisories and update database configuration accordingly
