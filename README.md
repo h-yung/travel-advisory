@@ -18,7 +18,8 @@ The following apply solely to the **MVP**.
 ## Target functionality
 User can look up travel advisory by country, and learn whether the destination country requires proof of negative COVID test or full vaccination.
 Each advisory will include details such as 
-- to whom any requirements apply, and acceptable tests or proofs (format, time elapsed, etc.)
+- to whom any requirements apply
+- accepted tests or proofs (format, time elapsed, etc.)
 - date from which the requirements are in effect
 - source of information and relevant links for more information
 
