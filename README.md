@@ -37,13 +37,12 @@ Each advisory will include details such as
 - Add editing functionality
 - componentize the many inputs, labels, and divs across the routes (AdvisoryList, Advisory, AddAdvisory)
   -  certain inputs may be better as radio buttons or arrays: update form for adding Advisories and update database configuration accordingly
-- rethink UI 
-  - for country search, especially on mobile: (alphabetized) list or dropdown, or solely by search
-  - hide details /open on tap or click?
-- refactor for accessibility (aria labels and element focus)
+- Rethink UI 
+  - For country list, create sorting functionality with filters for popular destination or test/vax reqs, or most recently updated. Since user base = 0, this is likely something hardcoded based on input data to start.
+- Refactor for accessibility (aria labels and element focus)
 - Update styling in App.css for clarity and improved experience
-  - update favicon
-- add up to 10 country advisories
+  - Update favicon
+- Add up to 10 country advisories
 
 ## Lessons learned (WIP)
 - dependencies and deprecation: needed to use flag --legacy-peer-dep, and overrides
