@@ -25,7 +25,8 @@ Each advisory will include details such as
 - source of information and relevant links for more information
 
 ## Issues/backlog
-- Update React to show basic advisory (COVID test and vax req)
+- Update React to show basic advisory information
+- Fix get by ID functionality
 - componentize the many inputs, labels, and divs across the routes (AdvisoryList, Advisory, AddAdvisory)
   -  certain inputs may be better as radio buttons or arrays: update form for adding Advisories and update database configuration accordingly
 - rethink UI 
