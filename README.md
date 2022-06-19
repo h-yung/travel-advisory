@@ -6,7 +6,7 @@ MVP will focus on negative COVID test and proof of vaccination for the [top 10 m
 Future phases will provide more actionable details and increase country list.
 Further optimizations will use webscraping for publicly available data from credible government agency sources.
 
-**Demo** with some sample data
+**Demo** with some data
 
 ![travel app screenshot](https://i.postimg.cc/KzWkXxTy/travel-demo-202206.png)
 
