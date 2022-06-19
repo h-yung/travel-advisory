@@ -7,7 +7,7 @@ if(process.env.NODE_ENV !== 'production'){
     dotenv.config({path: 'vars.env'})
 }
 
-const PORT = process.env.PORT || 8081; //note .env not set up yet. should this be closer to app.listen?
+const PORT = process.env.PORT || 8080; 
 const db = require('./app/models');
 
 // path for static files - views
