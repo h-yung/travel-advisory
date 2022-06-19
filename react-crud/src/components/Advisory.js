@@ -108,7 +108,18 @@ function Advisory(props){
                 className="form-control"
                 id="covTest"
                 name="covTest"
-                value={currentAdvisory.covTest}
+                value={currentAdvisory['negative covid test required']}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="testDetail">COVID test requirement details</label>
+              <input
+                type="text"
+                className="form-control"
+                id="testDetail"
+                name="testDetail"
+                value={currentAdvisory['covid test detail']}
                 onChange={handleInputChange}
               />
             </div>
@@ -119,7 +130,73 @@ function Advisory(props){
                 className="form-control"
                 id="vaxProof"
                 name="vaxProof"
-                value={currentAdvisory.vaxProof}
+                value={currentAdvisory['vaccination proof required']}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="vaxDetail">Vaccination proof details</label>
+              <input
+                type="text"
+                className="form-control"
+                id="vaxDetail"
+                name="vaxDetail"
+                value={currentAdvisory['vaccination proof detail']}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="sName">Source</label>
+              <input
+                type="text"
+                className="form-control"
+                id="sName"
+                name="sName"
+                value={currentAdvisory.sourceName}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="sName">Source</label>
+              <input
+                type="text"
+                className="form-control"
+                id="sName"
+                name="sName"
+                value={currentAdvisory.sourceName}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="covTestLink">More on COVID tests</label>
+              <input
+                type="text"
+                className="form-control"
+                id="covTestLink"
+                name="covTestLink"
+                value={currentAdvisory.sourceLink1}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="vaxProofLink">More on vaccination proof</label>
+              <input
+                type="text"
+                className="form-control"
+                id="vaxProofLink"
+                name="vaxProofLink"
+                value={currentAdvisory.sourceLink2}
+                onChange={handleInputChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="lastUpdated">Entry last updated</label>
+              <input
+                type="text"
+                className="form-control"
+                id="lastUpdated"
+                name="lastUpdated"
+                value={currentAdvisory.updatedAt}
                 onChange={handleInputChange}
               />
             </div>

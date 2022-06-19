@@ -7,15 +7,9 @@ import Advisory from './components/Advisory';
 import AdvisoryList from './components/AdvisoryList';
 
 function App(props) {
-  // useEffect(()=> {
-  //   // or use axios?
-  //   fetch('http://localhost:8081/api/advisories/')
-  //     .then(res => res.json())
-  //     .then(data => console.log(data)) //tbc
-  // })
   return (
     <div>
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
+      <nav className="navbar navbar-expand navbar-dark bg-dark px-4">
         <a href='/advisories' className='navbar-brand'>
           Travel prepared.
         </a>

@@ -113,16 +113,49 @@ function AdvisoryList() {
               <label>
                 <strong>Negative COVID test required?</strong>
               </label>{" "}
-              {currentAdvisory.covTest}
+              {currentAdvisory['negative covid test required']}
+            </div>
+            <div>
+              <label>
+                <strong>COVID test requirement details</strong>
+              </label>{" "}
+              {currentAdvisory['covid test detail']}
             </div>
             <div>
               <label>
                 <strong>Vaccination proof required?</strong>
               </label>{" "}
-              {currentAdvisory.vaxProof}
+              {currentAdvisory['vaccination proof required']}
+            </div>
+            <div>
+              <label>
+                <strong>Vaccination proof details</strong>
+              </label>{" "}
+              {currentAdvisory['vaccination proof detail']}
+            </div>
+            <div>
+              <label>
+                <strong>Source</strong>
+              </label>{" "}
+              {currentAdvisory.sourceName}
+            </div>
+            <div>
+              <label>
+                <strong><a href={currentAdvisory.sourceLink1}>More on COVID tests</a></strong>
+              </label>{" "}
+            </div>
+            <div>
+              <label>
+                <strong><a href={currentAdvisory.sourceLink2}>More on vaccination proof</a></strong>
+              </label>{" "}
+            </div>
+            <div>
+              <label>
+                <strong>Entry last updated</strong>
+              </label>{" "}
+              {currentAdvisory.updatedAt}
             </div>
             {/* add more here */}
-
             <div>
               <label>
                 <strong>Status:</strong>
