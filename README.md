@@ -6,8 +6,10 @@ MVP will focus on negative COVID test and proof of vaccination for the [top 10 m
 Future phases will provide more actionable details and increase country list.
 Further optimizations will use webscraping for publicly available data from credible government agency sources.
 
-**Demo**
+**Demo** with some sample data
+
 ![travel app screenshot](https://i.postimg.cc/KzWkXxTy/travel-demo-202206.png)
+
 
 ## How it's made
 **Tech used:** MERN stack app - Front end: React (Bootstrap); back end: Node.js and Express framework, MongoDB with Mongoose for database, Axios for HTTP requests (but may rewrite).
