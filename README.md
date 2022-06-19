@@ -12,8 +12,9 @@ Further optimizations will use webscraping for publicly available data from cred
 The following apply solely to the **MVP**.
 
 ## Current state
-- API and database are set up
-- Front and back end not yet integrated
+- Running on local server with the following commands
+`npm install`
+`node server.js` 
 
 ## Target functionality
 User can look up travel advisory by country, and learn whether the destination country requires proof of negative COVID test or full vaccination.
@@ -24,7 +25,7 @@ Each advisory will include details such as
 - source of information and relevant links for more information
 
 ## Issues/backlog
-- finish setting up data fetching in React
+- Update React to show basic advisory (COVID test and vax req)
 - componentize the many inputs, labels, and divs across the routes (AdvisoryList, Advisory, AddAdvisory)
   -  certain inputs may be better as radio buttons or arrays: update form for adding Advisories and update database configuration accordingly
 - rethink UI 
