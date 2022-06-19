@@ -13,8 +13,8 @@ The following apply solely to the **MVP**.
 
 ## Current state
 - Running on local server with the following commands
-`npm install`
-`node server.js` 
+1. `npm install`
+2. `node server.js` 
 
 ## Target functionality
 User can look up travel advisory by country, and learn whether the destination country requires proof of negative COVID test or full vaccination.
