@@ -50,4 +50,3 @@ Each advisory will include details such as
 - vulnerability warnings might be false alarms pre-production (React)
 - building familiarity with hooks - mind the states
 - webscraping or at least some form of passive update alert would be much more effective to ensure continued relevance/reliable information although it's good to confirm form entry functions as intended
-- 
