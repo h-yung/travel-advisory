@@ -4,7 +4,7 @@ It will provide information on whether a destination country for international t
 
 MVP will focus on negative COVID test and proof of vaccination for the [top 10 most visited countries](https://worldpopulationreview.com/country-rankings/most-visited-countries) for tourism and global travel. 
 Future phases will provide more actionable details and increase country list.
-Further optimizations will use webscraping for publicly available data from credible government agency sources.
+Further optimizations will use webscraping for publicly available data from credible government agency sources. Edit permissions should be limited or become moot, but potential for allowing suggestions or crowdsourced updates (putting "Published" vs "Pending" statuses to work).
 
 **Demo** with some data
 
@@ -12,8 +12,9 @@ Further optimizations will use webscraping for publicly available data from cred
 
 
 ## How it's made
-**Tech used:** MERN stack app - Front end: React (Bootstrap); back end: Node.js and Express framework, MongoDB with Mongoose for database, Axios for HTTP requests (but may rewrite).
+**Tech used:** MERN stack app - Front end: React; back end: Node.js and Express framework, MongoDB with Mongoose for database, Axios for HTTP requests (but may rewrite).
 
+Using MongoDB (NoSQL database) simplifies some hurdles and Bootstrap to speed up baseline styling.
 The following apply solely to the **MVP**.
 
 ## Current state
@@ -21,7 +22,7 @@ Running on local server with the following commands
 1. `npm install`
 2. `node server.js` 
 
-Can add travel advisories to the database using the form.
+Travel advisories can be added to the database using the form. 
 Observation: Redundancy with country list plus search functionality? However, it could be useful for the list to provide sorting options (e.g., most popular destination, test or vaccination requirements needed).
 
 ## Target functionality
@@ -48,3 +49,5 @@ Each advisory will include details such as
 - dependencies and deprecation: needed to use flag --legacy-peer-dep, and overrides
 - vulnerability warnings might be false alarms pre-production (React)
 - building familiarity with hooks - mind the states
+- webscraping or at least some form of passive update alert would be much more effective to ensure continued relevance/reliable information although it's good to confirm form entry functions as intended
+- 
