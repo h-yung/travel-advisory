@@ -18,6 +18,7 @@ Using MongoDB (NoSQL database) simplifies some hurdles and Bootstrap to speed up
 The following apply solely to the **MVP**.
 
 ## Current state
+Added a loading spinner and imported useTransition - but currently not able to test success/fail.
 Running on local server with the following commands
 1. `npm install`
 2. `node server.js` 
